@@ -1,0 +1,324 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+/******************
+Star
+******************/
+
+.solar {
+    height: 600px;
+    width: 600px;
+    margin: 100px auto;
+    /* border: 1px solid black; */
+
+}
+
+.sun {
+    width: 40px;
+    height: 40px;
+    background: -webkit-linear-gradient(left, #fefc 0%, #f1da36 100%);
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 230px;
+    border-radius: 50%;
+    animation: rotation 2s linear infinite;
+}
+
+/******************
+Planet
+******************/
+
+
+/*Mercury*/
+
+
+.mercurybox {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid #30374D;
+    animation: rotation 3s linear infinite;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 210px;
+}
+
+.mercury {
+    width: 10px;
+    height: 10px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+
+
+/*Venus*/
+
+
+.venusbox {
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    border: 1px solid #30374D;
+    animation: rotation 5s linear infinite;
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 185px
+}
+
+.venus {
+    width: 15px;
+    height: 15px;
+    background-color: #C4640D;
+    border-radius: 50%;
+    margin-top: 12px;
+    margin-left: 12px;
+}
+
+
+/***Earth and Moon***/
+
+
+/*Earth*/
+
+
+.earthbox {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #30374D;
+    animation: rotation 10s linear infinite;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px
+}
+
+.earth {
+    width: 10px;
+    height: 10px;
+    background-color: #2D4563;
+    border-radius: 50%;
+    margin-top: 24px;
+    margin-left: 24px;
+    position: absolute;
+}
+
+
+/*Moon*/
+
+
+.moonbox {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #30374D;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 50%;
+    animation: rotation 3s linear infinite;
+}
+
+.moon {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 2.5px;
+    margin-top: 2.5px;
+}
+
+
+/*Mars*/
+
+
+.marsbox {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 1px solid #30374D;
+    animation: rotation 15s linear infinite;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 125px;
+}
+
+.mars {
+    width: 8px;
+    height: 8px;
+    background-color: #91554C;
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+
+/*Jupiter*/
+
+
+.jupiterbox {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid #30374D;
+    animation: rotation 20s linear infinite;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.jupiter {
+    width: 20px;
+    height: 20px;
+    background-color: #af460f;
+    border-radius: 50%;
+    margin-top: 33px;
+    margin-left: 33px;
+}
+
+
+/*Saturn*/
+
+
+.saturnbox {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 1px solid #30374D;
+    animation: rotation 25s linear infinite;
+    position: absolute;
+    margin-top: 75px;
+    margin-left: 75px;
+}
+
+.saturn {
+    width: 10px;
+    height: 10px;
+    background-color: #F0DFC2;
+    border-radius: 50%;
+    margin-top: 46px;
+    margin-left: 46px;
+}
+
+
+/*Uranus*/
+
+
+.uranusbox {
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border: 1px solid #30374D;
+    animation: rotation 30s linear infinite;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.uranus {
+    width: 8px;
+    height: 8px;
+    background-color: #0297C2;
+    border-radius: 50%;
+    margin-top: 54px;
+    margin-left: 54px;
+}
+
+
+/*Neptune*/
+
+
+.neptunebox {
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    border: 1px solid #30374D;
+    animation: rotation 40s linear infinite;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.neptune {
+    width: 8px;
+    height: 8px;
+    background-color: #265793;
+    border-radius: 50%;
+    margin-top: 61px;
+    margin-left: 61px;
+}
+
+
+/*Pluto*/
+
+
+.plutobox {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 1px solid #30374D;
+    animation: rotation 50s linear infinite;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.pluto {
+    width: 5px;
+    height: 5px;
+    background-color: #F1B652;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+
+    }
+}
+
+
+/******************
+Planet name
+******************/
+
+
+/*List styling*/
+
+
+.planetname{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.planetname ul{
+    list-style-type: none;
+    
+}
+
+.planetname li{
+    float: left;
+    margin-right: 15px;
+    
+}
+
+.planetname li a{
+    text-decoration: none;
+    color: #AF460F;
+    font-size: 15px;
+    font-family: cursive;
+}
